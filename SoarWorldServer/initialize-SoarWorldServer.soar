@@ -1,0 +1,15 @@
+sp {propose*initialize-SoarWorldServer
+   (state <s> ^superstate nil
+             -^name)
+-->
+   (<s> ^operator <o> +)
+   (<o> ^name initialize-SoarWorldServer)
+}
+
+sp {apply*initialize-SoarWorldServer
+   (state <s> ^operator <op>)
+   (<op> ^name initialize-SoarWorldServer)
+-->
+   (<s> ^name SoarWorldServer)
+}
+

@@ -1,0 +1,3 @@
+pushd SoarWorldServer
+source SoarWorldServer_source.soar
+popd
